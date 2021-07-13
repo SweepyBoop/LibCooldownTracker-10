@@ -85,6 +85,13 @@ LCT_SpellData[77606] = {
 	duration = 8,
 	cooldown = 25
 }
+-- Strangulate
+LCT_SpellData[47476] = {
+	class = "DEATHKNIGHT",
+	talent = true,
+	silence = true,
+	cooldown = 60
+}
 
 -- DK/mixed/talents
 -- Asphyxiate
@@ -140,14 +147,6 @@ LCT_SpellData[49028] = {
 	cooldown = 120
 }
 -- DK/Blood/talents
--- Strangulate
-LCT_SpellData[47476] = {
-	class = "DEATHKNIGHT",
-	specID = { SPEC_DK_BLOOD },
-	talent = true,
-	silence = true,
-	cooldown = 60
-}
 -- Bonestorm
 LCT_SpellData[194844] = {
 	class = "DEATHKNIGHT",
